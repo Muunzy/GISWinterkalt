@@ -130,6 +130,13 @@ li:hover{
   padding: 10px;
 }
 
+@media (max-width: 375px) {
+  h1 {
+     color:black;
+     position: absolute;
+     left: 400px;
+   }
+
 .absolut::after{
   content: "<-- Du wirst es nicht bereuen";
   color: rgb(154, 103, 221);
@@ -168,4 +175,5 @@ label::after {
   content:": ";}
 input:valid {
   color: black;
+}
 }
